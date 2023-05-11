@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<record id="website_contact_mail_template" model="mail.template">
+		<field name="name">Fale Conosco: Website</field>
+		<field name="model_id" ref="base.model_res_users" />
+		<field name="subject">Mensagem recebida do Website</field>
+		<field name="auto_delete" eval="True"/>
+	</record>
+</odoo>
