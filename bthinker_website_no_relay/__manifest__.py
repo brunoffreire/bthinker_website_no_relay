@@ -24,6 +24,7 @@
 	'version': '1.0',
 	'license': 'LGPL-3',
     'support': 'contato@bthinker.com.br',	
+    'images': ['static/description/logo.png'],
 	'depends': ['base', 'mail', 'contacts', 'snailmail', 'website'],
 	
 	'data': [		
